@@ -1,5 +1,5 @@
 # Aplicações de Machine Learning para dados de energia
-Este repositório será utilizado para o desenvolvimento do Checkpoint 2, composto por quatro partes relacionadas à aplicação de técnicas de Machine Learning em dados de estabilidade de redes elétricas.
+Este repositório será utilizado para o desenvolvimento da atividade da matéria Soluções em Energias Renováveis, composto por quatro partes relacionadas à aplicação de técnicas de Machine Learning em dados de estabilidade de redes elétricas.
 
 As atividades utilizarão como referência o conjunto de dados Electrical Grid Stability Simulated Data, disponibilizado pela UCI Machine Learning Repository.
 
