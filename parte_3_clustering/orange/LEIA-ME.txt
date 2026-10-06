@@ -1,0 +1,4 @@
+Coloque aqui, depois de fazer a atividade no Orange:
+- fluxo_clustering.ows      (File > Save Workflow)
+- consumidores_clusters_orange.csv  (exportado pelo widget Save Data)
+- prints: tabela de Silhouette do k-Means, Scatter Plots e Box Plots

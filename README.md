@@ -46,3 +46,38 @@ Desenvolvimento de um desafio final que reunirá os conhecimentos trabalhados na
 O grupo deverá analisar os resultados obtidos, justificar as decisões tomadas durante o desenvolvimento e preparar uma apresentação do trabalho.
 
 As orientações do desafio final, os itens obrigatórios e o formato da apresentação serão divulgados na etapa correspondente.
+
+## Integrantes
+
+| Nome completo | RM |
+|---|---|
+| _preencher_ | _preencher_ |
+
+## Estrutura do repositório
+
+```text
+MachineLearning_DadosEnergia/
+├── README.md
+├── dados/
+│   └── Data_for_UCI_named.csv
+├── parte_1_classificacao/
+│   └── classificacao__estabilidade.ipynb   # Regressão Logística (target: stabf)
+├── parte_2_regressao/
+│   └── regressao_estabilidade.ipynb        # Regressão Linear (target: stab)
+├── parte_3_clustering/
+│   ├── clustering_energia.ipynb            # K-Means (Python)
+│   ├── consumidores_energia_proposto.csv   # base de entrada
+│   ├── README.md                           # escolha de k, perfis e ações
+│   ├── imagens/                            # gráficos do Python
+│   └── orange/                             # fluxo .ows, CSV com clusters e prints do Orange
+└── parte_4_desafio_final/                  # a divulgar
+```
+
+## Resultados
+
+| Parte | Modelo | Resultado principal |
+|---|---|---|
+| 1 – Classificação | Regressão Logística (12 features) | Acurácia 81,70% |
+| 2 – Regressão | Modelo 1: 5 maiores correlações (g3, g2, tau2, g1, tau3) | R² 0,4018 · MAE 0,0233 · MSE 0,000811 |
+| 2 – Regressão | Modelo 2: todas as variáveis tau e g | R² 0,6452 · MAE 0,0176 · MSE 0,000481 |
+| 3 – Clustering | K-Means, k = 4 (consumo, demanda, % noturno) | Silhouette 0,667 · 4 perfis de 15 consumidores |
